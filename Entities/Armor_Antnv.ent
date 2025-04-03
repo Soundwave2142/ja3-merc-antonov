@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/Armor_Antnv_mesh.m.hgm"/>
+			<material file="Materials/Armor_Antnv_mesh.mtl"/>
+			<bsphere value="-3.081,-0.534,123.356,41.679"/>
+			<box min="-29.792,-25.972,90.770" max="23.630,24.903,155.942"/>
+			<src file="C:/Users/Soundwave2142/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/BlenderScene.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
